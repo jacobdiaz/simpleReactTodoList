@@ -1,4 +1,4 @@
-![Uploading Screen Shot 2021-01-05 at 1.25.36 PM.png…]()
+<img width="1236" alt="Screen Shot 2021-01-05 at 1 25 36 PM" src="https://user-images.githubusercontent.com/54045615/103690184-f2da2b80-4f59-11eb-9dde-d656da31ca35.png">
 
 # Getting Started with Create React App
 
