@@ -1,0 +1,75 @@
+/* Todo App */
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Todo Card */
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12vh;
+  top: calc(50% - 175px);
+  left: calc(50% - 125px);
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Todo Form */
+.todo-form {
+  display: flex;
+  flex-direction: row;
+}
+.add-task-btn {
+  background-color: #038cd0;
+  color: white;
+  border: none;
+  height: 100%;
+}
+.add-task-btn:hover {
+  cursor: pointer;
+  background-color: navy;
+}
+input {
+  padding: 10px;
+}
+
+/* Todo Item */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 300px;
+  background-color: #038cd0;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 10px;
+}
+.todo-item:hover {
+  transform: scale(1.095);
+  transition: ease-in-out 150ms;
+}
+.todo-icon {
+  color: white;
+  opacity: 50%;
+}
+.todo-icon:hover {
+  transition: ease-in-out 150ms;
+  cursor: pointer;
+  opacity: 100%;
+}
